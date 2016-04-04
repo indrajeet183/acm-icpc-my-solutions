@@ -117,11 +117,11 @@ void calcX(sens o[],int l,int dc) {
 						row.push_back(j+1);
 					}
 				}
-				if(j+1<l) {
+			}
+			if(j+1<l) {
 					vec.push_back(row);
 					row.clear();
-				}		
-			}			
+			}
 		}
 	}
 	/*for(i=0;i<l;i++) {
